@@ -17,7 +17,7 @@
 }
 
 body{
-    background:#bbe4d0;
+    background:url('http://www.powerpointhintergrund.com/uploads/2017/05/-white-marble-background-marble-background-white-marble-backgrounds-14.png') fixed;
     margin:0;
     font:16px 'Yantramanav', sans-serif;
     color:#444;
@@ -153,10 +153,11 @@ nav .closebtn{
 /*--Intro Reflection--*/
 
 #intro{
-    background:#bbe4d0;
+    background:#fff;
     position:relative;
     height:100vh;
     margin:0 auto;
+    padding-top:40px;
 }
 
 #intro h1{
