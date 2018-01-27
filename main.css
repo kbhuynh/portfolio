@@ -17,8 +17,7 @@
 }
 
 body{
-    background:{color:Background} url({image:Background}) center fixed;
-    background-size:cover;
+    background:#bbe4d0;
     margin:0;
     font:16px 'Yantramanav', sans-serif;
     color:#444;
@@ -154,7 +153,7 @@ nav .closebtn{
 /*--Intro Reflection--*/
 
 #intro{
-    background:{color:Background 2};
+    background:#bbe4d0;
     position:relative;
     height:100vh;
     margin:0 auto;
