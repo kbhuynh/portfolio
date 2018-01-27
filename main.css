@@ -18,6 +18,10 @@
 
 body{
     background:url(https://static.tumblr.com/2e9nahe/h3Yp386i8/-white-marble-background-marble-background-white-marble-backgrounds-14.png) center fixed;
+    background-position:50% 0;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    background-size:cover;
     margin:0;
     font:16px 'Yantramanav', sans-serif;
     color:#444;
