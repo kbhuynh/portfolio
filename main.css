@@ -1,3 +1,24 @@
+@media(min-height:1080px){
+    body #bio{
+        max-width:850px;
+        padding-left:260px;
+    }
+    
+    body #title{
+        font-size:100px;
+    }
+    
+    body #home p{
+        line-height:30px;
+        font-size:20px;
+    }
+    
+    body #icon{
+        width:250px;
+        margin-left:-260px;
+    }
+}
+
 @media (max-width:800px){
     body #icon{
         position:relative;
@@ -6,22 +27,21 @@
     }
     
     body #bio{
-        padding:0;
+        padding:10px;
         text-align:center;
+        max-width:500px;
     }
     
-    body #home{
-        margin:10px;
-        width:95vw;
+    body #title{
+        margin-top:-30px;
+    }
+    
+    body #home p{
+        margin:0;
     }
 }
 
 body{
-    background:url(https://static.tumblr.com/2e9nahe/h3Yp386i8/-white-marble-background-marble-background-white-marble-backgrounds-14.png) center fixed;
-    background-position:50% 0;
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    background-size:cover;
     margin:0;
     font:16px 'Yantramanav', sans-serif;
     color:#444;
@@ -38,6 +58,7 @@ a{
 
 a:hover{
     color:#fff;
+    text-decoration:none;
 }
 
 h1{
@@ -96,8 +117,8 @@ p{
 
 .openbtn{
     position:fixed;
-    top:20px;
-    right:15px;
+    top:40px;
+    right:40px;
     cursor:pointer;
     z-index:9999;
 }
@@ -123,35 +144,46 @@ nav .closebtn{
 }
 
 #home{
+    background:url(https://static.tumblr.com/2e9nahe/h3Yp386i8/-white-marble-background-marble-background-white-marble-backgrounds-14.png) center fixed;
+    background-position:50% 0;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    background-size:cover;
     width:100vw;
     height:100vh;
+    border:2em solid #fff;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
     margin:0;
+    padding:0;
 }
 
 #bio{
-    max-width:500px;
+    max-width:700px;
     position:relative;
     top:50%;
     transform:translateY(-55%);
-    padding-left:200px;
+    padding-left:210px;
     margin:0 auto;
 }
 
 #icon{
     position:absolute;
-    width:175px;
-    margin-left:-200px;
-    margin-top:-3px;
+    width:200px;
+    margin-left:-210px;
+    margin-top:-10px;
 }
 
 #title{
-    font:bold 60px 'Space Mono', monospace;
+    font:bold 80px 'Space Mono', monospace;
     letter-spacing:2px;
     z-index:99;
 }
 
 #home p{
     line-height:24px;
+    margin-top:-10px;
 }
 
 /*--Intro Reflection--*/
@@ -159,33 +191,8 @@ nav .closebtn{
 #intro{
     background:#fff;
     position:relative;
-    height:100vh;
     margin:0 auto;
-    padding-top:40px;
-}
-
-#intro h1{
-    display:inline-block;
-    padding:0px 10px 0px 10px;
-}
-
-#intro p{
-    margin-top:-5px;
-}
-
-#intro a{
-    color:#8A3B1A;
-    text-decoration:underline;
-}
-
-#line{
-    position:absolute;
-    background:#ccc;
-    width:100vw;
-    height:1px;
-    margin-top:60px;
-    left:0px;
-    z-index:-99;
+    padding:20px 0 40px 0;
 }
 
 /*--Portfolio--*/
@@ -204,42 +211,4 @@ nav .closebtn{
 #portfolio p{
     text-align:center;
     margin:-10px 0px 35px 0px;
-}
-
-#works h2{
-    text-transform:uppercase;
-    letter-spacing:1px;
-    text-align:center;
-    margin-top:-1px;
-}
-
-.box{
-    display:table-cell;
-    width:50%;
-    height:250px;
-    border:1px solid {color:Boxes};
-    vertical-align:middle;
-    -webkit-transition:all 0.3s ease-in-out;
-    -moz-transition:all 0.3s ease-in-out;
-    -o-transition:all 0.3s ease-in-out;
-    transition:all 0.3s ease-in-out;
-}
-
-.box:hover{
-    background:{color:Boxes Hover};
-    border-color:{color:Boxes Hover};
-}
-
-.box:hover a{
-    color:#fff;
-}
-
-.box:hover a:hover{
-    text-decoration:underline;
-}
-
-.row{
-    display:table;
-    width:100%;
-    border-spacing:25px 10px;
 }
