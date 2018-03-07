@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Space+Mono:700|Yantramanav:400,700" rel="stylesheet">
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
@@ -40,6 +41,20 @@ $(document).ready(function(){
    $('#nav, #intro').localScroll(); 
 });
 </script>
+    
+<script>
+$(document).ready(function(){
+   var scroll_pos = 0
+   $(window).scroll(function(){
+      scroll_pos = $(this).scrollTop();
+      if (scroll_pos > 980){
+          $(".openbtn").css("fill", "#fff")
+      } else{
+          $(".openbtn").css("fill", "#000")
+      }
+   });
+});
+</script>
 
 </head> 
 
@@ -63,8 +78,22 @@ $(document).ready(function(){
 </section>
 
 <section id="intro">
-    
-
+    <div class="container">
+        <h1>About Me</h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <p>Following in the footsteps of my father’s artistic hobbies, I couldn’t stop tinkering with pencil and paper as a child. This is how my love for art developed. Of course, children aren’t typically exposed to anything but traditional media, so as I grew into my middle school years, I picked up a drawing tablet and borrowed a digital camera to explore the beauty of digital media.</p>
+            </div> 
+            <div class="col-sm-6">
+                <p>It was during these years that I started to develop my passion for graphic and web design, and photography. I played around with typography and colors on Photoshop after being awestruck at the work of professionals on Behance, learned how to code to design and develop websites, and took a myriad of photos to document the minutiae of everyday life.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p>This portfolio website is the culmination of the aforementioned passions. From the works selected for presentation to very the design choices of the website itself, I hope these elements are able to strike a chord with you. Thank you for visiting!</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id="portfolio">
@@ -73,4 +102,6 @@ $(document).ready(function(){
 
 </section>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
