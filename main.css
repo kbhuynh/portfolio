@@ -198,10 +198,10 @@ nav .closebtn{
 /*--Portfolio--*/
 
 #portfolio{ 
-    background:#F6F4EF;
-    height:100%;
+    background:#222;
+    height:100vh;
     margin:0 auto;
-    padding:20px 5% 20px 5%;
+    padding:40px 0 0 0;
 }
 
 #portfolio h1{
