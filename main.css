@@ -159,10 +159,10 @@ nav .closebtn{
 }
 
 #home{
-    background:url(https://static.tumblr.com/2e9nahe/h3Yp386i8/-white-marble-background-marble-background-white-marble-backgrounds-14.png) center fixed;
-    background-position:50% 0;
-    background-repeat:no-repeat;
+    background: url(https://static.tumblr.com/2e9nahe/h3Yp386i8/-white-marble-background-marble-background-white-marble-backgrounds-14.png) no-repeat center center fixed;
     -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
     background-size:cover;
     width:100vw;
     height:100vh;
