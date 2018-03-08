@@ -332,7 +332,6 @@ nav .closebtn{
 #design{
     background:#F6F4EF;
     padding:100px 100px 1px 100px;
-    height:100vh;
 }
 
 #design h1{
@@ -355,4 +354,12 @@ nav .closebtn{
     margin-left:150px;
     letter-spacing:2px;
     font-family:'Space Mono', monospace;
+}
+
+#design img{
+    margin-bottom:15px;
+}
+
+#design .embed-responsive{
+    margin-bottom:15px;
 }
