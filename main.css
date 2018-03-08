@@ -254,6 +254,7 @@ nav .closebtn{
 /*--Photos--*/
 
 #photos{
+    background:#f4f4f4;
     height:100%;
     padding:100px 100px 0 100px;
 }
