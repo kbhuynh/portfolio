@@ -130,6 +130,24 @@ p{
     color:#444;
 }
 
+#nav li{
+    list-style-type:none;
+}
+
+#nav li a{
+    color:#666;
+    font-size:16px;
+    margin:0px 20px 20px 0;
+}
+
+#nav li a:first-child{
+    margin-top:-20px;
+}
+
+#nav li a:hover{
+    color:#fff;
+}
+
 .openbtn{
     position:fixed;
     top:40px;
