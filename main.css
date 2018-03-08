@@ -289,3 +289,70 @@ nav .closebtn{
 #photos .row{
     margin-top:10px;
 }
+
+/*--Codes--*/
+
+#codes{
+    background:#222;
+    padding:100px 100px 50px 100px;
+}
+
+#codes a{
+    color:#fff;
+}
+
+#codes h1{
+    font-size:100px;
+    color:#333;
+}
+
+#codes h2{
+    color:#A8C09E;
+    font-size:21px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-top:-75px;
+    margin-left:6px;
+}
+
+#codes h3{
+    color:#e9e9e9;
+    margin-top:-40px;
+    margin-left:150px;
+    letter-spacing:2px;
+    font-family:'Space Mono', monospace;
+}
+
+#codes img{
+    margin-bottom:15px;
+}
+
+/*--Design--*/
+
+#design{
+    background:#F6F4EF;
+    padding:100px 100px 1px 100px;
+    height:100vh;
+}
+
+#design h1{
+    font-size:100px;
+    color:#e9e9e9;
+}
+
+#design h2{
+    color:#A8C09E;
+    font-size:21px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-top:-75px;
+    margin-left:6px;
+}
+
+#design h3{
+    color:#444;
+    margin-top:-40px;
+    margin-left:150px;
+    letter-spacing:2px;
+    font-family:'Space Mono', monospace;
+}
