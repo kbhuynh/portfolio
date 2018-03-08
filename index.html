@@ -27,13 +27,16 @@ function closeNav() {
 
 <script>
 $(function() {
-    var $el = $('#home');
-    $(window).on('scroll', function () {
-        var scroll = $(document).scrollTop();
-        $el.css({
-            'background-position':'50% '+(-.4*scroll)+'px'
+    var mq = window.matchMedia('@media (min-width:801px)');
+    if(mq.matches){
+        var $el = $('#home');
+        $(window).on('scroll', function () {
+            var scroll = $(document).scrollTop();
+            $el.css({
+                'background-position':'50% '+(-.4*scroll)+'px'
+            });
         });
-    });
+    }
 });
 </script>
     
