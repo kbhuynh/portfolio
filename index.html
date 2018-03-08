@@ -45,12 +45,15 @@ $(document).ready(function(){
     
 <script>
 $(document).ready(function(){
-   var scroll_pos = 0
+   var targetOffset = $('#codes').offset().top;
+   var targetOffset2 = $('#design').offset().top;
    $(window).scroll(function(){
-      scroll_pos = $(this).scrollTop();
-      if (scroll_pos > 980){
+      if ($(window).scrollTop() + 50 > targetOffset){
           $(".openbtn").css("fill", "#fff")
       } else{
+          $(".openbtn").css("fill", "#000")
+      }
+      if ($(window).scrollTop() + 50 > targetOffset2){
           $(".openbtn").css("fill", "#000")
       }
    });
