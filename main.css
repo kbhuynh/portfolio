@@ -44,6 +44,11 @@
     body #photos .row{
         margin:0;
     }
+    
+    body #contact li{
+        display:inline-block;
+        margin-right:15px;
+    }
 }
 
 @media (max-width:500px){
@@ -141,7 +146,11 @@ p{
 }
 
 #nav li a:first-child{
-    margin-top:-20px;
+    margin-top:-25px;
+}
+
+#nav li a:last-child{
+    margin-bottom:30px;
 }
 
 #nav li a:hover{
@@ -382,3 +391,96 @@ nav .closebtn{
 #design .embed-responsive{
     margin-bottom:15px;
 }
+
+/*--Contact--*/
+
+#contact{
+    background:#fff;
+    padding:100px 100px 1px 100px;
+}
+
+#contact h2{
+    font-size:21px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+
+#contact li{
+    list-style:circle;
+    margin-bottom:10px;
+}
+
+#contact .container-fluid{
+    max-width:700px;
+    margin:0 auto;
+}
+
+#line{
+    width:1px;
+    height:95%;
+    background:#ccc;
+    margin-left:28px;
+}
+
+form{
+    max-width:500px;
+    height:100%;
+    margin:20px auto;
+}
+
+.form-control{
+    width:100%;
+    margin-bottom:50px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:0;
+    border:none;
+    border-bottom:1px solid #222;
+    border-radius:0;
+}
+
+.form-control:focus{
+    outline:none!important;
+    border:none!important;
+    box-shadow:none;
+    border-bottom:1px solid #ccc!important;
+}
+
+textarea{
+    display:block;
+    width:100%;
+    height:200px;
+    margin:0 auto;
+    border:1px solid #222;
+}
+
+textarea:focus{
+    outline:none!important;
+    border:none!important;
+    border:1px solid #ccc!important;
+}
+
+.submit{
+    display:block;
+    background:#fff;
+    border:1px solid #222;
+    width:100px;
+    margin:30px auto;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+.submit:hover{
+    background:#222;
+    color:#fff;
+}
+
+#confirmation{
+    width:100%;
+    margin:-80px auto;
+    text-align:center;
+}
+
+</style>
